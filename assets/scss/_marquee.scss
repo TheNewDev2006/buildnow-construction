@@ -1,0 +1,124 @@
+.scrolling-wrap {
+	overflow: hidden;
+	white-space: nowrap;
+	display: flex;
+	gap: 40px;
+    
+	.comm {
+		display: flex;
+		align-items: center;
+		animation: scroll 60s linear infinite;
+		gap: 40px;
+		cursor: pointer;
+
+		.cmn-textslide {
+			font-size: 80px;
+			font-weight: 900;
+			line-height: 99px;
+			text-transform: capitalize;
+            color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $header-color;
+            background: transparent;
+            font-family: $heading-font;
+            @include flex;
+            gap: 15px;
+
+			@include breakpoint (max-sm) {
+				line-height: 88px;
+			}
+		}
+	}
+
+	&:hover {
+		.comm {
+			animation-play-state: paused;
+		}
+	}
+
+	@include breakpoint (max-xxl) {
+		.comm {
+			gap: 20px;
+		}
+	}
+
+	@include breakpoint (max-lg) {
+		gap: 14px;
+		.comm {
+			gap: 14px;
+		}
+	}
+
+	@include breakpoint (max-sm) {
+		.comm {
+			gap: 12px;
+		}
+	}
+}
+
+.scrolling-wrap-2 {
+	overflow: hidden;
+	white-space: nowrap;
+	display: flex;
+	gap: 0px;
+	margin-top: 30px;
+    
+	.comm {
+		display: flex;
+		align-items: center;
+		animation: scroll 60s linear infinite;
+		gap: 80px;
+		cursor: pointer;
+
+		.cmn-textslide {
+			font-size: 22px;
+			font-weight: 500;
+			line-height: 27px;
+			text-transform: uppercase;
+            color: $header-color;
+            font-family: $body-font;
+            @include flex;
+			position: relative;
+
+			 &::before {
+                position: absolute;
+                content: "";
+                width: 7px;
+                height: 7px;
+                background-color: $theme-color;
+                top: 50%;
+				transform: translateY(-50%);
+    			left: -42px;
+
+				 @include breakpoint (max-xxxl) {
+					display: none;
+				}
+            }
+		}
+	}
+
+	&:hover {
+		.comm {
+			animation-play-state: paused;
+		}
+	}
+
+	@include breakpoint (max-xxl) {
+		.comm {
+			gap: 20px;
+		}
+	}
+
+	@include breakpoint (max-lg) {
+		gap: 14px;
+		.comm {
+			gap: 14px;
+		}
+	}
+
+	@include breakpoint (max-sm) {
+		.comm {
+			gap: 12px;
+		}
+	}
+}

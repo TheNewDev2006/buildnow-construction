@@ -1,0 +1,148 @@
+<!-- Footer-section Start -->
+<?php require_once dirname(__FILE__) . '/../config/Personalization.php'; ?>
+<footer class="footer-section footer-bg fix">
+    <div class="right-shape float-bob-x">
+        <img src="assets/img/home-1/shape-1.png" alt="img">
+    </div>
+    <div class="left-shape">
+        <img src="assets/img/home-1/shape-2.png" alt="img">
+    </div>
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="footer-newsletter">
+                <div class="content wow fadeInUp" data-wow-delay=".3s">
+                    <a href="index.php" style="display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:#fff;">
+                        <span style="display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background-color:<?php echo htmlspecialchars(Personalization::get('primary_color'), ENT_QUOTES, 'UTF-8'); ?>;color:#fff;font-weight:700;letter-spacing:1px;line-height:1;"><?php echo htmlspecialchars(Personalization::getBusinessInitials(), ENT_QUOTES, 'UTF-8'); ?></span>
+                        <span style="font-size:16px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;color:#fff;"><?php echo htmlspecialchars(Personalization::get('business_name'), ENT_QUOTES, 'UTF-8'); ?></span>
+                    </a>
+                    <p>
+                        We are creators of transformative spaces that inspire, innovate, and endure.
+                    </p>
+                </div>
+                <div class="newsletter-content wow fadeInUp" data-wow-delay=".5s">
+                    <h4>Subscribe to Our Newsletter!</h4>
+                    <form action="#">
+                        <div class="form-clt">
+                            <input type="text" name="email" id="email" placeholder="Enter Your Email">
+                            <button type="submit" class="theme-btn">
+                                Subscribe Now
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="single-footer-widget">
+                        <div class="footer-contact">
+                            <h4>
+                                <a href="mailto:<?php echo htmlspecialchars(Personalization::get('email'), ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars(Personalization::get('email'), ENT_QUOTES, 'UTF-8'); ?></a>
+                            </h4>
+                            <h4 class="mb-0">
+                                <a href="tel:<?php echo preg_replace('/[^\d]/', '', Personalization::get('phone')); ?>"><?php echo htmlspecialchars(Personalization::get('phone'), ENT_QUOTES, 'UTF-8'); ?></a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="single-footer-widget">
+                        <div class="widget-title">
+                            <h4>About Us</h4>
+                        </div>
+                        <ul class="list-area">
+                            <li>
+                                <a href="contact.php">
+                                    Support Centre
+                                </a>
+                            </li>
+                            <li>
+                                <a href="team.details.php">
+                                    Our Team
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.php">
+                                    Our Solutions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.php">
+                                    Why Choose Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.php">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="single-footer-widget">
+                        <div class="widget-title">
+                            <h4>Our Services</h4>
+                        </div>
+                        <ul class="list-area">
+                            <li>
+                                <a href="service-details.php">
+                                    Architecture Design
+                                </a>
+                            </li>
+                            <li>
+                                <a href="service-details.php">
+                                    Building Renovation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="service-details.php">
+                                    Building Construction
+                                </a>
+                            </li>
+                            <li>
+                                <a href="service-details.php">
+                                    Flooring & Roofing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="service-details.php">
+                                    General Contracting
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 ps-lg-5 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="single-footer-widget">
+                        <div class="map-items">
+                            <div class="googpemap">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
+                                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-wrapper">
+                <p class="wow fadeInUp" data-wow-delay=".3s">
+                    Copyright © 2026 <?php echo htmlspecialchars(Personalization::get('business_name'), ENT_QUOTES, 'UTF-8'); ?>. All Rights Reserved.
+                </p>
+                <div class="flag-wrap wow fadeInUp" data-wow-delay=".5s">
+                    <div class="flag">
+                        <img src="assets/img/home-1/flag.png" alt="flag">
+                    </div>
+                    <select class="single-select w-100">
+                        <option>English</option>
+                        <option>Bangla</option>
+                        <option>Hindi</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

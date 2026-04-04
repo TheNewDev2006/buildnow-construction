@@ -1,0 +1,60 @@
+<?php
+// Include personalization
+require_once dirname(__FILE__) . '/../config/Personalization.php';
+
+$currentPage = basename($_SERVER['PHP_SELF'] ?? '');
+$isRenovationHome = ($currentPage === 'index-7.php');
+$baseUrl = $isRenovationHome ? 'index-7.php' : 'index.php';
+
+$businessName = Personalization::get('business_name');
+$businessInitials = Personalization::getBusinessInitials();
+$themeColor = Personalization::get('primary_color');
+?>
+
+<!-- Personalization Theme -->
+<?php echo Personalization::getThemeCss(); ?>
+
+<!-- Header Section Start -->
+<header id="header-sticky" class="header-7">
+    <div class="container-fluid">
+        <div class="mega-menu-wrapper">
+            <div class="header-main">
+                <a href="<?php echo $baseUrl; ?>" class="header-logo header-logo-text">
+                    <span class="logo-initials" style="background-color: <?php echo $themeColor; ?>;"><?php echo $businessInitials; ?></span>
+                    <span class="logo-text">
+                        <span class="logo-company"><?php echo htmlspecialchars($businessName, ENT_QUOTES, 'UTF-8'); ?></span>
+                        <span class="logo-tagline">Partner Agency</span>
+                    </span>
+                </a>
+                <div class="header-right d-flex justify-content-end align-items-center">
+                    <div class="mean__menu-wrapper">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li class="active"><a href="<?php echo $baseUrl; ?>">Home</a></li>
+                                    <li><a href="<?php echo $baseUrl; ?>#about">About</a></li>
+                                    <li><a href="<?php echo $baseUrl; ?>#services">Services</a></li>
+                                    <li><a href="<?php echo $baseUrl; ?>#projects">Projects</a></li>
+                                    <li><a href="<?php echo $baseUrl; ?>#news">Insights</a></li>
+                                    <li><a href="<?php echo $baseUrl; ?>#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="header-right-icon">
+                        <a href="<?php echo $baseUrl; ?>#contact" class="contacts-btn">LET'S TALK</a>
+                    </div>
+                    <div class="header__hamburger d-xl-none">
+                        <div class="sidebar__toggle">
+                            <div class="header-bar">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

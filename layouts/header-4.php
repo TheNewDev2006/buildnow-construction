@@ -1,0 +1,258 @@
+   <!-- Header Section Start -->
+        <header id="header-sticky" class="header-1 header-4">
+            <div class="container-fluid">
+                <div class="mega-menu-wrapper">
+                <div class="header-main">
+                        <a href="index.php" class="header-logo">
+                            <img src="assets/img/logo/black-logo.svg" alt="img">
+                        </a>
+                        <div class="header-right d-flex justify-content-end align-items-center">
+                             <div class="mean__menu-wrapper">
+                            <div class="main-menu">
+                                 <nav id="mobile-menu">
+                                    <ul>
+                                        <li class="has-dropdown menu-thumb">
+                                            <a href="javascript:void(0)">
+                                                Home
+                                                <i class="fas fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="submenu has-homemenu">
+                                                <li>
+                                                    <div class="homemenu-items">
+                                                        <div class="row row-cols-xl-4 row-cols-md-2 row-cols-2">
+                                                            <div class="col homemenu">
+                                                                <div class="homemenu-thumb">
+                                                                    <img src="assets/img/header/home-1.jpg" alt="img">
+                                                                    <div class="demo-button">
+                                                                        <a class="theme-btn-main style-2" href="index.php">
+                                                                            <span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+                                                                            <span class="theme-btn">Demo Page</span>
+                                                                            <span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+                                                                        </a>
+                                                                            </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        <a href="index.php">
+                                                                            Main Home
+                                                                        </a>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-2.jpg" alt="img">
+                                                                        <div class="demo-button">
+                                                                        </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        <a href="index-2.php">
+                                                                        Home Constructon 01
+                                                                        </a>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-3.jpg" alt="img">
+                                                                        <div class="demo-button">
+                                                                        </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        <a href="index-3.php">
+                                                                        Home Constructon 02
+                                                                        </a>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                        <img src="assets/img/header/home-4.jpg" alt="img">
+                                                                        <div class="demo-button">
+                                                                        </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        <a href="index-4.php">
+                                                                            Industry Home
+                                                                        </a>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-5.jpg" alt="img">
+                                                                    <div class="demo-button">
+                                                                        </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        <a href="index-5.php">
+                                                                        Construction
+                                                                        </a>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-6.jpg" alt="img">
+                                                                    <div class="demo-button">
+                                                                        </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        <a href="index-6.php">
+                                                                        Oil Industry
+                                                                        </a>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-7.jpg" alt="img">
+                                                                    <div class="demo-button">
+                                                                        <a class="theme-btn-main style-2" href="index-7.php">
+                                                                            <span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+                                                                            <span class="theme-btn">Demo Page</span>
+                                                                            <span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+                                                                        </a>
+                                                                            </div>
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        <a href="index-7.php">
+                                                                            Renovation 
+                                                                        </a>
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col homemenu">
+                                                                <div class="homemenu-thumb mb-15">
+                                                                    <img src="assets/img/header/home-8.jpg" alt="img">
+                                                                </div>
+                                                                <div class="homemenu-content text-center">
+                                                                    <h4 class="homemenu-title">
+                                                                        Coming Soon
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown active d-xl-none">
+                                            <a href="javascript:void(0)" class="border-none">
+                                            Home
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="index.php">Main Home</a></li>
+                                                <li><a href="index-2.php">Home Constructon 01</a></li>
+                                                <li><a href="index-3.php">Home Constructon 02</a></li>
+                                                <li><a href="index-4.php">Industry Home</a></li>
+                                                <li><a href="index-5.php">Construction</a></li>
+                                                <li><a href="index-6.php">Oil Industry</a></li>
+                                                <li><a href="index-7.php">Renovation</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="javascript:void(0)">
+                                                Pages
+                                                <i class="fas fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="about.php">About Us</a>
+                                                </li>
+                                                <li class="has-dropdown">
+                                                    <a href="javascript:void(0)">
+                                                        Our Team
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="team.php">Our Team</a></li>
+                                                        <li><a href="team-details.php">Team Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-dropdown">
+                                                    <a href="javascript:void(0)">
+                                                        Shop Page
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="shop.php">Shop Page</a></li>
+                                                        <li><a href="shop-details.php">Shop Details</a></li>
+                                                        <li><a href="shop-cart.php">Shop Cart</a></li>
+                                                        <li><a href="checkout.php">CheckOut</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="pricing.php">Pricing Plan</a></li>
+                                                <li><a href="gallery.php">Our Gallery</a></li>
+                                                <li><a href="faq.php">Faqs</a></li>
+                                                <li><a href="404.php">404 Error</a></li>
+                                            </ul>
+                                        </li>
+                                            <li>
+                                            <a href="javascript:void(0)">
+                                                Services
+                                                <i class="fas fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="service.php">Our Services</a></li>
+                                                <li><a href="service-details.php">Service Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                Projects
+                                                <i class="fas fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="project.php">Our Project</a></li>
+                                                <li><a href="project-details.php">Project Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                News
+                                                <i class="fas fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="news.php">Our News</a></li>
+                                                <li><a href="news-details.php">News Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.php">
+                                                Contacts
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                            <div class="header-right-icon">
+                                <a href="shop-cart.php" class="cart-icon"><i class="far fa-shopping-bag"></i>
+                                    <span>2</span>
+                                </a>
+                                <a href="#" class="main-header__search search-toggler">
+                                    <i class="far fa-search"></i>
+                                </a>
+                            </div>
+                            <div class="header__hamburger">
+                                <a href="contact.php" class="contact-btn">GET A QUOTE</a>
+                                <div class="sidebar__toggle">
+                                    <div class="header-bar">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
