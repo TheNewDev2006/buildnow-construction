@@ -882,6 +882,5 @@ if (empty($_SESSION['csrf_token'])) {
         <script src="assets/js/ajax-mail.js"></script>
         <!--<< Main.js >>-->
         <script src="assets/js/main.js"></script>
-    <script src="assets/js/cynix-url-params.js"></script>
-</body>
+    </body>
 </html>

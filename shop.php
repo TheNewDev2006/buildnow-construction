@@ -1228,6 +1228,5 @@
         <script src="assets/js/wow.min.js"></script>
         <!--<< Main.js >>-->
         <script src="assets/js/main.js"></script>
-    <script src="assets/js/cynix-url-params.js"></script>
-</body>
+    </body>
 </html>
