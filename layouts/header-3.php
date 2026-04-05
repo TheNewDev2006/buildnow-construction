@@ -20,7 +20,7 @@
                             <i class="fa-solid fa-envelopes"></i>
                         </div>
                         <div class="content">
-                            <h4><a href="mailto:buildnow@gmail.com">buildnow@gmail.com</a></h4>
+                            <h4><a href="mailto:[construction-company]@gmail.com">[construction-company]@gmail.com</a></h4>
                         </div>
                     </li>
                     <li>

@@ -151,7 +151,7 @@ if (empty($_SESSION['csrf_token'])) {
                                     <i class="fa-solid fa-envelopes"></i>
                                 </div>
                                 <div class="content">
-                                    <h4><a href="mailto:buildnow@gmail.com">buildnow@gmail.com</a></h4>
+                                    <h4><a href="mailto:[construction-company]@gmail.com">[construction-company]@gmail.com</a></h4>
                                 </div>
                             </li>
                             <li>
@@ -544,7 +544,7 @@ if (empty($_SESSION['csrf_token'])) {
                                             <div class="content">
                                                 <h5>Contact us:</h5>
                                                 <p><a href="tel:+483939993900">Call Consulting: +483 9399 939 00</a></p>
-                                                <p><a href="mailto:hellobuildnow@gmail.com">Send Email: hellobuildnow@gmail.com</a></p>
+                                                <p><a href="mailto:hello[construction-company]@gmail.com">Send Email: hello[construction-company]@gmail.com</a></p>
                                             </div>
                                         </li>
                                         <li class="wow fadeInUp" data-wow-delay=".8s">
@@ -606,7 +606,7 @@ if (empty($_SESSION['csrf_token'])) {
                                 </div>
                                 <div class="content">
                                     <h5>Our Email Us</h5>
-                                    <h6><a href="mailto:info@example.com">info@example.com</a></h6>
+                                    <h6><a href="mailto:[business@domain].com">[business@domain].com</a></h6>
                                 </div>
                             </div>
                             <div class="info-items wow fadeInUp" data-wow-delay=".4s">
