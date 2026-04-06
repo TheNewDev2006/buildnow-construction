@@ -1,10 +1,10 @@
 <?php
 // Include personalization
-require_once dirname(__FILE__) . '/../config/Personalization.php';
+require_once dirname(__FILE__) . '/../config/Personalization.html';
 
 $currentPage = basename($_SERVER['PHP_SELF'] ?? '');
-$isRenovationHome = ($currentPage === 'index-7.php');
-$baseUrl = $isRenovationHome ? 'index-7.php' : 'index.php';
+$isMainHome = ($currentPage !== 'index-7.html');
+$baseUrl = $isMainHome ? 'index.html' : 'index-7.html';
 
 $businessName = Personalization::get('business_name');
 $businessInitials = Personalization::getBusinessInitials();
@@ -15,7 +15,7 @@ $themeColor = Personalization::get('primary_color');
 <?php echo Personalization::getThemeCss(); ?>
 
 <!-- Header Section Start -->
-<header id="header-sticky" class="header-7">
+<header id="header-sticky" class="header-1">
     <div class="container-fluid">
         <div class="mega-menu-wrapper">
             <div class="header-main">
@@ -35,16 +35,17 @@ $themeColor = Personalization::get('primary_color');
                                     <li><a href="<?php echo $baseUrl; ?>#about">About</a></li>
                                     <li><a href="<?php echo $baseUrl; ?>#services">Services</a></li>
                                     <li><a href="<?php echo $baseUrl; ?>#projects">Projects</a></li>
-                                    <li><a href="<?php echo $baseUrl; ?>#news">Insights</a></li>
+                                    <li><a href="<?php echo $baseUrl; ?>#team">Team</a></li>
                                     <li><a href="<?php echo $baseUrl; ?>#contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
                     <div class="header-right-icon">
-                        <a href="<?php echo $baseUrl; ?>#contact" class="contacts-btn">LET'S TALK</a>
+                        <a href="tel:<?php echo preg_replace('/[^\d]/', '', Personalization::get('phone')); ?>" class="contact-btn">CALL US</a>
                     </div>
-                    <div class="header__hamburger d-xl-none">
+                    <div class="header__hamburger">
+                        <a href="<?php echo $baseUrl; ?>#contact" class="contact-btn">GET A QUOTE</a>
                         <div class="sidebar__toggle">
                             <div class="header-bar">
                                 <span></span>
