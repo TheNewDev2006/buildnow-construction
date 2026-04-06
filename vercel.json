@@ -1,15 +1,25 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/:path*.php", "destination": "/:path*.html" },
-    { "source": "/index.php", "destination": "/index.html" }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "no-cache" }
-      ]
-    }
+    { "source": "/index.php", "destination": "/index.html" },
+    { "source": "/about.php", "destination": "/about.html" },
+    { "source": "/contact.php", "destination": "/contact.html" },
+    { "source": "/service.php", "destination": "/service.html" },
+    { "source": "/service-details.php", "destination": "/service-details.html" },
+    { "source": "/project.php", "destination": "/project.html" },
+    { "source": "/project-details.php", "destination": "/project-details.html" },
+    { "source": "/team.php", "destination": "/team.html" },
+    { "source": "/team-details.php", "destination": "/team-details.html" },
+    { "source": "/news.php", "destination": "/news.html" },
+    { "source": "/news-details.php", "destination": "/news-details.html" },
+    { "source": "/shop.php", "destination": "/shop.html" },
+    { "source": "/shop-details.php", "destination": "/shop-details.html" },
+    { "source": "/shop-cart.php", "destination": "/shop-cart.html" },
+    { "source": "/checkout.php", "destination": "/checkout.html" },
+    { "source": "/faq.php", "destination": "/faq.html" },
+    { "source": "/gallery.php", "destination": "/gallery.html" },
+    { "source": "/pricing.php", "destination": "/pricing.html" },
+    { "source": "/contact-us.php", "destination": "/contact-us.html" },
+    { "source": "/404.php", "destination": "/404.html" }
   ]
 }
