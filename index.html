@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <!--<< Header Area >>-->
 
@@ -34,6 +34,9 @@
 posthog.init('phc_yXLZ8yRVWLMrFqWsE65QpfLHq2qgiPnobxgYXXnYoEKk',{api_host:'https://us.i.posthog.com',person_profiles:'identified_only',capture_pageview:true,autocapture:true});
 (function(){var p=new URLSearchParams(location.search),g=function(k){for(var a=['businessName','bn','email','e','phone','p','campaign','c','source','s'],i=0;i<a.length;i++){var v=p.get(a[i]);if(v)return{key:a[i],val:decodeURIComponent(v)}}return null};var bn=p.get('businessName')||p.get('bn'),em=p.get('email')||p.get('e'),ph=p.get('phone')||p.get('p'),ca=p.get('campaign')||p.get('c'),sr=p.get('source')||p.get('s');if(em||bn){posthog.identify(em||bn,{email:em,business_name:bn,phone:ph,campaign:ca,source:sr,site:location.hostname})}posthog.capture('page_viewed',{lead_business:bn,lead_email:em,campaign:ca,source:sr,site:location.hostname})})();
 </script>
+
+<!-- flattening logic -->
+<script>document.addEventListener('DOMContentLoaded', () => { document.querySelectorAll('.menu-item-has-children, .dropdown, .mega-menu-wrap, .has-dropdown').forEach(e => e.classList.remove('menu-item-has-children', 'dropdown', 'mega-menu-wrap', 'has-dropdown')); });</script>
 </head>
 
 <body>
@@ -85,11 +88,11 @@ posthog.init('phc_yXLZ8yRVWLMrFqWsE65QpfLHq2qgiPnobxgYXXnYoEKk',{api_host:'https
                             <nav id="mobile-menu">
                                 <ul>
                                     <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="index.html#about">About</a></li>
-                                    <li><a href="index.html#services">Services</a></li>
-                                    <li><a href="index.html#projects">Projects</a></li>
-                                    <li><a href="index.html#team">Team</a></li>
-                                    <li><a href="index.html#contact">Contact</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="service.html">Services</a></li>
+                                    <li><a href="project.html">Projects</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -98,7 +101,7 @@ posthog.init('phc_yXLZ8yRVWLMrFqWsE65QpfLHq2qgiPnobxgYXXnYoEKk',{api_host:'https
                         <a href="tel:94722558244" class="contact-btn">CALL US</a>
                     </div>
                     <div class="header__hamburger">
-                        <a href="index.html#contact" class="contact-btn">GET A QUOTE</a>
+                        <a href="contact.html" class="contact-btn">GET A QUOTE</a>
                         <div class="sidebar__toggle">
                             <div class="header-bar">
                                 <span></span>
@@ -1416,4 +1419,6 @@ posthog.init('phc_yXLZ8yRVWLMrFqWsE65QpfLHq2qgiPnobxgYXXnYoEKk',{api_host:'https
 </body>
 
 </html>
+
+
 

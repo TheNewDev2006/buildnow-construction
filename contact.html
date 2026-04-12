@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 if (empty($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
@@ -882,5 +882,6 @@ if (empty($_SESSION['csrf_token'])) {
         <script src="assets/js/ajax-mail.js"></script>
         <!--<< Main.js >>-->
         <script src="assets/js/main.js"></script>
-    </body>
+    <script src="assets/js/cynix-url-params.js"></script>
+</body>
 </html>
